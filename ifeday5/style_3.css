@@ -1,0 +1,29 @@
+.parent{
+    width: 800px;
+    margin: 0;
+    text-align:left;
+    
+}
+.header {
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    background:rgb(133,133,133);
+}
+h1{
+    color:white;
+}
+.title{
+    width:20%;
+    height:120px;
+    text-align:center;
+    float:left;
+    background:rgb(214,214,214);
+
+}
+.detail{
+    width:80%;
+    height:120px;
+    text-align:left;
+    float:left;
+}

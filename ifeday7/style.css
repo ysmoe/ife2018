@@ -1,0 +1,18 @@
+/* style.css*/
+.header{
+    background:rgb(51,51,51);
+    height:80px;
+}
+.headerin{
+    float:center;
+    width:960px;
+}
+.logo{
+    float:left;
+}
+.usercenter{
+    float:right;
+}
+h1{
+    color:white;
+}

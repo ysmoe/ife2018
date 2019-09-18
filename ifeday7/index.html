@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>页面布局</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,21 +21,42 @@
 
     </div>
     <div class="banner">
-        <div class="picbtn1">
-            <p>1</p>
-        </div>
-        <div class="picbtn2">
-            <p>2</p>
-        </div>
-        <div class="picbtn3">
-            <p>3</p>
-        </div>
-        <div class="picbtn4">
-            <p>4</p>
+        <div class="bar layout">
+            <ul>
+                <li>1</li>
+                <li class="active">2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
         </div>
     </div>
-    <div class="nav"></div>
-    <div class="content"></div>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>PROFILE</li>
+            <li>ABOUT</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="items">
+                <div class="item">This is content 1</div>
+                <div class="item">Maybe Content 2</div>
+                <div class="item">content 3</div>
+            </div>
+            <div class="items">
+                    <div class="item">content 4</div>
+                    <div class="item">content 5</div>
+                    <div class="item">content 6</div>
+                    <div class="item">content 7</div>
+            </div>
+            <div class="items">
+                    <div class="item">content 8</div>
+                    <div class="item">content 9</div>
+                    <div class="item">content 10</div>
+            </div>
+        </div>
+    </main>
     <div class="footer">
         <p align:center>©2019 ife.baidu.com</p>
     </div>
